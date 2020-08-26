@@ -1,0 +1,20 @@
+<title>STATSOZARR</title>
+
+<link rel="stylesheet" href="{{url_for( 'static', filename= 'style.css') }}" />
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+{% block content %}
+<nav>
+  <input type="checkbox" id="check" />
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <label class="logo">STATSOZAR</label>
+  <ul>
+    <li><a class="active" href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contacts">Contact</a></li>
+  </ul>
+</nav>
+
+{% endblock %}

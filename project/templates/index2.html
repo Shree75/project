@@ -1,0 +1,22 @@
+<header>{% include 'layout.html' %}</header>
+<title>About Us</title>
+<style>
+  p {
+    font-family: "Arial";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: x-large;
+  }
+</style>
+{% block title %}
+<h1 style="font-family: Arial, Helvetica, sans-serif;">ABOUT</h1>
+{% endblock %} {% block content %}
+<p>
+  This is small step to make awareness between the people of Ozar.
+  <br /><br />Click the Home to get the stats of covid-19 cases in Ozar.
+  <br /><br />
+  Click the Home button for reports of covid-19 button to know about us.
+</p>
+{%endblock %}
